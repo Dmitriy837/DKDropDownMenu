@@ -10,6 +10,7 @@
 #import "DKDropDownAction.h"
 
 @interface DKDropDownViewController : UIViewController
+@property (nonatomic, weak)IBOutlet UIView *shadowView;
 @property (nonatomic, assign) CGRect originRect;
 @property (nonatomic, strong) UIColor *backgroundColor;
 @property (nonatomic, assign) BOOL forceDown;

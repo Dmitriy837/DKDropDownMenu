@@ -24,34 +24,42 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HrY-2G-4jn">
                                 <rect key="frame" x="31" y="79" width="57" height="30"/>
-                                <state key="normal" title="Button 1"/>
+                                <state key="normal" title="Button 1">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="showMenuFromButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="spo-vC-bIg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i30-t0-5a0">
                                 <rect key="frame" x="230" y="79" width="59" height="30"/>
-                                <state key="normal" title="Button 2"/>
+                                <state key="normal" title="Button 2">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="showMenuFromButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="aTC-Qm-DCf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCO-D9-I7k">
                                 <rect key="frame" x="31" y="523" width="59" height="30"/>
-                                <state key="normal" title="Button 3"/>
+                                <state key="normal" title="Button 3">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="showMenuFromButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="aKa-92-fpQ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3B-wB-wdf">
                                 <rect key="frame" x="229" y="523" width="60" height="30"/>
-                                <state key="normal" title="Button 4"/>
+                                <state key="normal" title="Button 4">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="showMenuFromButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="HZY-0E-ChF"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="i30-t0-5a0" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="15" id="0Oc-mS-4Kx"/>
                             <constraint firstItem="HrY-2G-4jn" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="15" id="Co4-ha-UU5"/>

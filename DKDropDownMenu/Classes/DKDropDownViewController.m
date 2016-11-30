@@ -15,7 +15,6 @@
 @interface DKDropDownViewController()<UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) NSMutableArray *actions;
 @property (nonatomic, weak)IBOutlet UITableView *tableView;
-@property (nonatomic, weak)IBOutlet UIView *shadowView;
 @property (nonatomic, weak)IBOutlet UIView *pseudoBackground;
 @property (nonatomic, weak)IBOutlet NSLayoutConstraint *tableViewHeightConstraint;
 @property (nonatomic, weak)IBOutlet NSLayoutConstraint *tableViewBottomConstraint;

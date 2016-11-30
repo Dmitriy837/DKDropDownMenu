@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'DKDropDownMenu'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DKDropDownMenu.'
+  s.summary          = 'Simple nice looking drop down menu'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,8 +18,10 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+If your boss wants you to add a drop down menu to your iOS app and you are tired of empty talks about guidelines and absence of such a control like drop down menu in UIKit - just use DKDropDownMenu.
+
+    More configuration options are added in future. Hopefully. For now you can use shadowView property of DKDropDownViewController to configure shadow's layer if you don't like the default one or subclass DKDropDownViewController to provide your own cell's configurations by overriding UITableViewDataSource protocol methods in case of emergency.
+    DESC
 
   s.homepage         = 'https://github.com/<GITHUB_USERNAME>/DKDropDownMenu'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
