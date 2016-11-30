@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DKDropDownMenu_Example' do
+  pod 'DKDropDownMenu', :path => '../'
+
+  target 'DKDropDownMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
