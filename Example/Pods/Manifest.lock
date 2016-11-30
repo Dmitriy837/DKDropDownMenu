@@ -1,0 +1,16 @@
+PODS:
+  - DKDropDownMenu (0.1.0)
+
+DEPENDENCIES:
+  - DKDropDownMenu (from `../`)
+
+EXTERNAL SOURCES:
+  DKDropDownMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DKDropDownMenu: 6954aa6d26e373f29d4abb9f69665510bec488fa
+
+PODFILE CHECKSUM: 36d2c4af191fd1c028b1df7fba011a4a01c79658
+
+COCOAPODS: 1.1.1

@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0xw-Iw-ybc">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,14 +19,73 @@
                         <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HrY-2G-4jn">
+                                <rect key="frame" x="31" y="79" width="57" height="30"/>
+                                <state key="normal" title="Button 1"/>
+                                <connections>
+                                    <action selector="showMenuFromButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="spo-vC-bIg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i30-t0-5a0">
+                                <rect key="frame" x="230" y="79" width="59" height="30"/>
+                                <state key="normal" title="Button 2"/>
+                                <connections>
+                                    <action selector="showMenuFromButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="aTC-Qm-DCf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fCO-D9-I7k">
+                                <rect key="frame" x="31" y="523" width="59" height="30"/>
+                                <state key="normal" title="Button 3"/>
+                                <connections>
+                                    <action selector="showMenuFromButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="aKa-92-fpQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y3B-wB-wdf">
+                                <rect key="frame" x="229" y="523" width="60" height="30"/>
+                                <state key="normal" title="Button 4"/>
+                                <connections>
+                                    <action selector="showMenuFromButton:" destination="whP-gf-Uak" eventType="touchUpInside" id="HZY-0E-ChF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="i30-t0-5a0" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="15" id="0Oc-mS-4Kx"/>
+                            <constraint firstItem="HrY-2G-4jn" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="15" id="Co4-ha-UU5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="y3B-wB-wdf" secondAttribute="trailing" constant="15" id="HgL-U2-k2v"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="y3B-wB-wdf" secondAttribute="bottom" constant="15" id="No0-L5-PRy"/>
+                            <constraint firstItem="fCO-D9-I7k" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="15" id="PnH-XL-0jd"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="fCO-D9-I7k" secondAttribute="bottom" constant="15" id="hNY-bz-LFE"/>
+                            <constraint firstItem="HrY-2G-4jn" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" constant="15" id="iYs-ie-r3f"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="i30-t0-5a0" secondAttribute="trailing" constant="15" id="m0d-ed-ZFh"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="P7i-0F-BBd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="1301.25" y="432.04225352112678"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="3ot-yr-UmW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0xw-Iw-ybc" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="8o8-gJ-g7U">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="whP-gf-Uak" kind="relationship" relationship="rootViewController" id="Wb1-rG-fxD"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="54f-MG-62o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="303.75" y="432.04225352112678"/>
         </scene>
     </scenes>
 </document>

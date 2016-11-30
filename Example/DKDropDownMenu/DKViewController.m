@@ -7,6 +7,7 @@
 //
 
 #import "DKViewController.h"
+#import "DKDropDownMenu/DKDropDownViewController.h"
 
 @interface DKViewController ()
 
@@ -14,16 +15,34 @@
 
 @implementation DKViewController
 
-- (void)viewDidLoad
+- (IBAction)showMenuFromButton:(UIButton*)sender
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [[self menuExample] presentFromView:sender];
 }
 
-- (void)didReceiveMemoryWarning
+- (DKDropDownViewController*)menuExample
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    DKDropDownViewController *menu = [DKDropDownViewController new];
+    menu.backgroundColor = [UIColor lightGrayColor];
+    [menu addAction:[self actionAtIndex:0]];
+    [menu addAction:[self actionAtIndex:1]];
+    [menu addAction:[self actionAtIndex:2]];
+    return menu;
+}
+
+- (DKDropDownAction*)actionAtIndex:(NSInteger)idx
+{
+    NSString *title = [NSString stringWithFormat:@"Option %ld", idx];
+    return [DKDropDownAction actionWithTitle:title andAction:^{
+        [self showAlertWithMessage:[title stringByAppendingString:@" selected"]];
+    }];
+}
+
+- (void)showAlertWithMessage:(NSString*)message
+{
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Alert" message:message preferredStyle:UIAlertControllerStyleAlert];
+    [alert addAction:[UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault handler:nil]];
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 @end

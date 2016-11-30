@@ -1,0 +1,25 @@
+{
+  "name": "DKDropDownMenu",
+  "version": "0.1.0",
+  "summary": "A short description of DKDropDownMenu.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/DKDropDownMenu",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dmytro Kovryhin": "agnostic.88@yandex.ua"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/DKDropDownMenu.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "DKDropDownMenu/Classes/**/*",
+  "resources": [
+    "Pod/Assets/*.{png,storyboard,lproj}"
+  ]
+}

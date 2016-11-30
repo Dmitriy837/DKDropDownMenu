@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050B4FAD1DEF5E2200B40875 /* DropDownMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 050B4FAB1DEF5E2200B40875 /* DropDownMenu.storyboard */; };
+		0756C61EA0E00E819D3FB66E57A0E543 /* DKDropDownAction.h in Headers */ = {isa = PBXBuildFile; fileRef = B334D545B7FF6154793E8831D263CAC0 /* DKDropDownAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53D375D4E61C378590A82D99A42DC8C8 /* Pods-DKDropDownMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54981CE750A376536E8A12DE154F1521 /* Pods-DKDropDownMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633A283DC5BDBC5C9BF2E4799C2F8C52 /* DKDropDownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6A8C8E59FE7A33762F8BBA930A2B84C /* DKDropDownMenu-dummy.m */; };
+		649C54DCCFB6E5F9F8BE98200635FA40 /* DKDropDownTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FD380D360FCDA5D1CA07C2DDD2240C6 /* DKDropDownTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A3F7C80D710C9663B2A8A9D93482618 /* DKDropDownViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DEE255F9005479380F46125E65B344D /* DKDropDownViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77E5B5F8D12999B8ED7F6E70E9EAE673 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AEBCAC833ADCE106F35A8B053126F270 /* DKDropDownTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87BF42E4F97AAAC504173F23097517E7 /* DKDropDownTableViewCell.m */; };
+		BF6967658EC9D1EF2AC1C8294BD114CC /* Pods-DKDropDownMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0724D2A603E07F52199D23D22DECC511 /* Pods-DKDropDownMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C74344FD054323492ED738882410473A /* Pods-DKDropDownMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1519B8CF1157309F0B5E923EEAABE040 /* Pods-DKDropDownMenu_Tests-dummy.m */; };
+		C7D22FAFFE6CE7CCEAF864E318D80F3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CEF0EA1DE5ED966B509EBAA8B0A1E008 /* DKDropDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E2610B938FB817E2766797B35FE243C6 /* DKDropDownViewController.m */; };
+		CF58CEBB3DD7D38D1295996D27F7CF34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		D8CA0CFA5D5AA5B1126934A936F96E4B /* DKDropDownAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 518C6D8B7B402F76CECDE8BE461CE7A4 /* DKDropDownAction.m */; };
+		DA4B80D3A7139F7C74DCE1DE1551DB88 /* Pods-DKDropDownMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CD1EC9F2586D5DD1C6EACAB95A273E8 /* Pods-DKDropDownMenu_Example-dummy.m */; };
+		EC12AF23D0023C52C941023D5602669E /* DKDropDownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97D825668F83A916DE868C1FF1C3752D /* DKDropDownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D5150EB13D81130E25FBE0A9B4F82B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9333AC3202FB8F61B0927795BDEE9126;
+			remoteInfo = DKDropDownMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0436B19D7D1C72B28A83DF6F12EF1751 /* Pods_DKDropDownMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKDropDownMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		050B4FAB1DEF5E2200B40875 /* DropDownMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DropDownMenu.storyboard; sourceTree = "<group>"; };
+		0724D2A603E07F52199D23D22DECC511 /* Pods-DKDropDownMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKDropDownMenu_Example-umbrella.h"; sourceTree = "<group>"; };
+		0DBB61B8CD009E8B26FD5513AD953B91 /* Pods-DKDropDownMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKDropDownMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1519B8CF1157309F0B5E923EEAABE040 /* Pods-DKDropDownMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKDropDownMenu_Tests-dummy.m"; sourceTree = "<group>"; };
+		1DEE255F9005479380F46125E65B344D /* DKDropDownViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DKDropDownViewController.h; sourceTree = "<group>"; };
+		24FDF5DE31F195C2D7A256615D059A56 /* Pods_DKDropDownMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DKDropDownMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CD1EC9F2586D5DD1C6EACAB95A273E8 /* Pods-DKDropDownMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKDropDownMenu_Example-dummy.m"; sourceTree = "<group>"; };
+		43CA7CF57C0B450309A5D6CE81BA0754 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E0AF6F99F5F661DE907770205820435 /* Pods-DKDropDownMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKDropDownMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		518C6D8B7B402F76CECDE8BE461CE7A4 /* DKDropDownAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DKDropDownAction.m; sourceTree = "<group>"; };
+		54981CE750A376536E8A12DE154F1521 /* Pods-DKDropDownMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKDropDownMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5FD380D360FCDA5D1CA07C2DDD2240C6 /* DKDropDownTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DKDropDownTableViewCell.h; sourceTree = "<group>"; };
+		60160D310CBAF140B129F99D7065B93E /* Pods-DKDropDownMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKDropDownMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C9BA11DB2ECE2353F09DA983AAE2946 /* Pods-DKDropDownMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DKDropDownMenu_Example.modulemap"; sourceTree = "<group>"; };
+		7190F4ABFED01B596803A1C3724458E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8746BC560474DCAF7447605C44CF077F /* DKDropDownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DKDropDownMenu.modulemap; sourceTree = "<group>"; };
+		87BF42E4F97AAAC504173F23097517E7 /* DKDropDownTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DKDropDownTableViewCell.m; sourceTree = "<group>"; };
+		90E249D9FDF48D825AF583E2295CFC79 /* Pods-DKDropDownMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKDropDownMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		953ECBFFEC9FF03C13AAB420E0AA9BC3 /* DKDropDownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKDropDownMenu.xcconfig; sourceTree = "<group>"; };
+		97D825668F83A916DE868C1FF1C3752D /* DKDropDownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKDropDownMenu-umbrella.h"; sourceTree = "<group>"; };
+		B334D545B7FF6154793E8831D263CAC0 /* DKDropDownAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DKDropDownAction.h; sourceTree = "<group>"; };
+		B40DE0700CE5D1A05B6B5AAFC73E281E /* DKDropDownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DKDropDownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6A8C8E59FE7A33762F8BBA930A2B84C /* DKDropDownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKDropDownMenu-dummy.m"; sourceTree = "<group>"; };
+		B908BF531B12767A27AC83207872267E /* Pods-DKDropDownMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKDropDownMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BC169C81DE8BDE67033A0DCA19FA3CC7 /* Pods-DKDropDownMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKDropDownMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE77A9E7546C91DD8F4E33E3DF133FB0 /* Pods-DKDropDownMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKDropDownMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C24713A39C6B212D2D71449A2D85079A /* Pods-DKDropDownMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKDropDownMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9DA4421175477397F66856E66F5B0FF /* Pods-DKDropDownMenu_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKDropDownMenu_Tests-resources.sh"; sourceTree = "<group>"; };
+		DE88AD7EB16347263F359DC18C3771F5 /* DKDropDownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKDropDownMenu-prefix.pch"; sourceTree = "<group>"; };
+		E2610B938FB817E2766797B35FE243C6 /* DKDropDownViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DKDropDownViewController.m; sourceTree = "<group>"; };
+		EE442A735FE8A78AF183DEFC9CFF4436 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF8AA151DBEC2A799D62C45A5539BDEE /* Pods-DKDropDownMenu_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKDropDownMenu_Example-resources.sh"; sourceTree = "<group>"; };
+		F330A5B39B5A9958AA172A3AC41F49FE /* Pods-DKDropDownMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DKDropDownMenu_Tests.modulemap"; sourceTree = "<group>"; };
+		FA2F299A1F6F6A108D65BF6DF5B96B4E /* Pods-DKDropDownMenu_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKDropDownMenu_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FF5E722C10391380FA0228B19FBF1A88 /* Pods-DKDropDownMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKDropDownMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20794B9FF97DAEF698B5A0ED2F2A6896 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E5B5F8D12999B8ED7F6E70E9EAE673 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		226D9E48EF682C78FBE64CBFC4816E5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF58CEBB3DD7D38D1295996D27F7CF34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B95C2F50B4FAEEB264BC0B3AB43F9E2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7D22FAFFE6CE7CCEAF864E318D80F3D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050B4FA91DEF5E2200B40875 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				050B4FAB1DEF5E2200B40875 /* DropDownMenu.storyboard */,
+			);
+			name = Assets;
+			path = DKDropDownMenu/Assets;
+			sourceTree = "<group>";
+		};
+		052BD411E162A7CA5401FCDAE35852BA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B51EC9DDFED1AA354CD8074370274FC /* Pods-DKDropDownMenu_Example */,
+				C2286D07590710EE1CFB2B2930A66161 /* Pods-DKDropDownMenu_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		16D5C3056BF021C663BAF37E7BAA3527 /* DKDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				AA06BF4C47AF196D1C98B69AE7BEAD9E /* Classes */,
+			);
+			path = DKDropDownMenu;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FDBD44B2B8D60EA8BDCED0B855648F1E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B80110C3015D10FC94AAE04FBB5CB4D3 /* Products */,
+				052BD411E162A7CA5401FCDAE35852BA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8AFF8866AE72DF2AD53C8D66EB6ADE44 /* DKDropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				050B4FA91DEF5E2200B40875 /* Assets */,
+				16D5C3056BF021C663BAF37E7BAA3527 /* DKDropDownMenu */,
+				B9A75D74617CDDAAFB06A4CE0505548A /* Support Files */,
+			);
+			name = DKDropDownMenu;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8B51EC9DDFED1AA354CD8074370274FC /* Pods-DKDropDownMenu_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EE442A735FE8A78AF183DEFC9CFF4436 /* Info.plist */,
+				6C9BA11DB2ECE2353F09DA983AAE2946 /* Pods-DKDropDownMenu_Example.modulemap */,
+				C24713A39C6B212D2D71449A2D85079A /* Pods-DKDropDownMenu_Example-acknowledgements.markdown */,
+				90E249D9FDF48D825AF583E2295CFC79 /* Pods-DKDropDownMenu_Example-acknowledgements.plist */,
+				3CD1EC9F2586D5DD1C6EACAB95A273E8 /* Pods-DKDropDownMenu_Example-dummy.m */,
+				FF5E722C10391380FA0228B19FBF1A88 /* Pods-DKDropDownMenu_Example-frameworks.sh */,
+				EF8AA151DBEC2A799D62C45A5539BDEE /* Pods-DKDropDownMenu_Example-resources.sh */,
+				0724D2A603E07F52199D23D22DECC511 /* Pods-DKDropDownMenu_Example-umbrella.h */,
+				0DBB61B8CD009E8B26FD5513AD953B91 /* Pods-DKDropDownMenu_Example.debug.xcconfig */,
+				BE77A9E7546C91DD8F4E33E3DF133FB0 /* Pods-DKDropDownMenu_Example.release.xcconfig */,
+			);
+			name = "Pods-DKDropDownMenu_Example";
+			path = "Target Support Files/Pods-DKDropDownMenu_Example";
+			sourceTree = "<group>";
+		};
+		AA06BF4C47AF196D1C98B69AE7BEAD9E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B334D545B7FF6154793E8831D263CAC0 /* DKDropDownAction.h */,
+				518C6D8B7B402F76CECDE8BE461CE7A4 /* DKDropDownAction.m */,
+				5FD380D360FCDA5D1CA07C2DDD2240C6 /* DKDropDownTableViewCell.h */,
+				87BF42E4F97AAAC504173F23097517E7 /* DKDropDownTableViewCell.m */,
+				1DEE255F9005479380F46125E65B344D /* DKDropDownViewController.h */,
+				E2610B938FB817E2766797B35FE243C6 /* DKDropDownViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B80110C3015D10FC94AAE04FBB5CB4D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B40DE0700CE5D1A05B6B5AAFC73E281E /* DKDropDownMenu.framework */,
+				0436B19D7D1C72B28A83DF6F12EF1751 /* Pods_DKDropDownMenu_Example.framework */,
+				24FDF5DE31F195C2D7A256615D059A56 /* Pods_DKDropDownMenu_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9A75D74617CDDAAFB06A4CE0505548A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8746BC560474DCAF7447605C44CF077F /* DKDropDownMenu.modulemap */,
+				953ECBFFEC9FF03C13AAB420E0AA9BC3 /* DKDropDownMenu.xcconfig */,
+				B6A8C8E59FE7A33762F8BBA930A2B84C /* DKDropDownMenu-dummy.m */,
+				DE88AD7EB16347263F359DC18C3771F5 /* DKDropDownMenu-prefix.pch */,
+				97D825668F83A916DE868C1FF1C3752D /* DKDropDownMenu-umbrella.h */,
+				43CA7CF57C0B450309A5D6CE81BA0754 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DKDropDownMenu";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2286D07590710EE1CFB2B2930A66161 /* Pods-DKDropDownMenu_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7190F4ABFED01B596803A1C3724458E4 /* Info.plist */,
+				F330A5B39B5A9958AA172A3AC41F49FE /* Pods-DKDropDownMenu_Tests.modulemap */,
+				BC169C81DE8BDE67033A0DCA19FA3CC7 /* Pods-DKDropDownMenu_Tests-acknowledgements.markdown */,
+				B908BF531B12767A27AC83207872267E /* Pods-DKDropDownMenu_Tests-acknowledgements.plist */,
+				1519B8CF1157309F0B5E923EEAABE040 /* Pods-DKDropDownMenu_Tests-dummy.m */,
+				FA2F299A1F6F6A108D65BF6DF5B96B4E /* Pods-DKDropDownMenu_Tests-frameworks.sh */,
+				D9DA4421175477397F66856E66F5B0FF /* Pods-DKDropDownMenu_Tests-resources.sh */,
+				54981CE750A376536E8A12DE154F1521 /* Pods-DKDropDownMenu_Tests-umbrella.h */,
+				60160D310CBAF140B129F99D7065B93E /* Pods-DKDropDownMenu_Tests.debug.xcconfig */,
+				4E0AF6F99F5F661DE907770205820435 /* Pods-DKDropDownMenu_Tests.release.xcconfig */,
+			);
+			name = "Pods-DKDropDownMenu_Tests";
+			path = "Target Support Files/Pods-DKDropDownMenu_Tests";
+			sourceTree = "<group>";
+		};
+		FDBD44B2B8D60EA8BDCED0B855648F1E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF8866AE72DF2AD53C8D66EB6ADE44 /* DKDropDownMenu */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3D10EF32882FD721EE750B49D013AB01 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0756C61EA0E00E819D3FB66E57A0E543 /* DKDropDownAction.h in Headers */,
+				EC12AF23D0023C52C941023D5602669E /* DKDropDownMenu-umbrella.h in Headers */,
+				649C54DCCFB6E5F9F8BE98200635FA40 /* DKDropDownTableViewCell.h in Headers */,
+				6A3F7C80D710C9663B2A8A9D93482618 /* DKDropDownViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3F82A02B35212256F364150F58746E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53D375D4E61C378590A82D99A42DC8C8 /* Pods-DKDropDownMenu_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB88AEBFFF911E38BFD619D685C742F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF6967658EC9D1EF2AC1C8294BD114CC /* Pods-DKDropDownMenu_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1767AE235472A502474B82F6459D93A9 /* Pods-DKDropDownMenu_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0C2DB5FE4491A09C895A70096075CD /* Build configuration list for PBXNativeTarget "Pods-DKDropDownMenu_Tests" */;
+			buildPhases = (
+				E70116719CFFC06752C76DFA925415C9 /* Sources */,
+				226D9E48EF682C78FBE64CBFC4816E5E /* Frameworks */,
+				CD3F82A02B35212256F364150F58746E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DKDropDownMenu_Tests";
+			productName = "Pods-DKDropDownMenu_Tests";
+			productReference = 24FDF5DE31F195C2D7A256615D059A56 /* Pods_DKDropDownMenu_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9333AC3202FB8F61B0927795BDEE9126 /* DKDropDownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEC58E46E4EB8BAB1855A400194969C4 /* Build configuration list for PBXNativeTarget "DKDropDownMenu" */;
+			buildPhases = (
+				8158E0344DFCDACDD99DF3B387AD4595 /* Sources */,
+				B95C2F50B4FAEEB264BC0B3AB43F9E2D /* Frameworks */,
+				3D10EF32882FD721EE750B49D013AB01 /* Headers */,
+				050B4FA81DEF5E0D00B40875 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKDropDownMenu;
+			productName = DKDropDownMenu;
+			productReference = B40DE0700CE5D1A05B6B5AAFC73E281E /* DKDropDownMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9A0EF65E799816E329AE113922B46179 /* Pods-DKDropDownMenu_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48F3111CB697A2FA7D4792E7690688B /* Build configuration list for PBXNativeTarget "Pods-DKDropDownMenu_Example" */;
+			buildPhases = (
+				BEBB1AC03757315E3E333F6A5D3A9F6C /* Sources */,
+				20794B9FF97DAEF698B5A0ED2F2A6896 /* Frameworks */,
+				EB88AEBFFF911E38BFD619D685C742F8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8662526CE7977B812F62753DB8AD0892 /* PBXTargetDependency */,
+			);
+			name = "Pods-DKDropDownMenu_Example";
+			productName = "Pods-DKDropDownMenu_Example";
+			productReference = 0436B19D7D1C72B28A83DF6F12EF1751 /* Pods_DKDropDownMenu_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B80110C3015D10FC94AAE04FBB5CB4D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9333AC3202FB8F61B0927795BDEE9126 /* DKDropDownMenu */,
+				9A0EF65E799816E329AE113922B46179 /* Pods-DKDropDownMenu_Example */,
+				1767AE235472A502474B82F6459D93A9 /* Pods-DKDropDownMenu_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		050B4FA81DEF5E0D00B40875 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050B4FAD1DEF5E2200B40875 /* DropDownMenu.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8158E0344DFCDACDD99DF3B387AD4595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CA0CFA5D5AA5B1126934A936F96E4B /* DKDropDownAction.m in Sources */,
+				633A283DC5BDBC5C9BF2E4799C2F8C52 /* DKDropDownMenu-dummy.m in Sources */,
+				AEBCAC833ADCE106F35A8B053126F270 /* DKDropDownTableViewCell.m in Sources */,
+				CEF0EA1DE5ED966B509EBAA8B0A1E008 /* DKDropDownViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEBB1AC03757315E3E333F6A5D3A9F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA4B80D3A7139F7C74DCE1DE1551DB88 /* Pods-DKDropDownMenu_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70116719CFFC06752C76DFA925415C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C74344FD054323492ED738882410473A /* Pods-DKDropDownMenu_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8662526CE7977B812F62753DB8AD0892 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DKDropDownMenu;
+			target = 9333AC3202FB8F61B0927795BDEE9126 /* DKDropDownMenu */;
+			targetProxy = 0D5150EB13D81130E25FBE0A9B4F82B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2415C1453DA4AA57B25A76218199BA26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E0AF6F99F5F661DE907770205820435 /* Pods-DKDropDownMenu_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DKDropDownMenu_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DKDropDownMenu_Tests/Pods-DKDropDownMenu_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DKDropDownMenu_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		82D52EF5CE66A7FD5EC38F3F56A84DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953ECBFFEC9FF03C13AAB420E0AA9BC3 /* DKDropDownMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DKDropDownMenu/DKDropDownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKDropDownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DKDropDownMenu/DKDropDownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DKDropDownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8473236481D673C4C8CCF76ECFDBD616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE77A9E7546C91DD8F4E33E3DF133FB0 /* Pods-DKDropDownMenu_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DKDropDownMenu_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DKDropDownMenu_Example/Pods-DKDropDownMenu_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DKDropDownMenu_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A16F33032BE7D4E1F198635E317CFDBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953ECBFFEC9FF03C13AAB420E0AA9BC3 /* DKDropDownMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DKDropDownMenu/DKDropDownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKDropDownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DKDropDownMenu/DKDropDownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DKDropDownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C89A50884EA4715E0E1050C873B8316B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBB61B8CD009E8B26FD5513AD953B91 /* Pods-DKDropDownMenu_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DKDropDownMenu_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DKDropDownMenu_Example/Pods-DKDropDownMenu_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DKDropDownMenu_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF096B5C08A6540690A74EE425613771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60160D310CBAF140B129F99D7065B93E /* Pods-DKDropDownMenu_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DKDropDownMenu_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DKDropDownMenu_Tests/Pods-DKDropDownMenu_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DKDropDownMenu_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B0C2DB5FE4491A09C895A70096075CD /* Build configuration list for PBXNativeTarget "Pods-DKDropDownMenu_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF096B5C08A6540690A74EE425613771 /* Debug */,
+				2415C1453DA4AA57B25A76218199BA26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEC58E46E4EB8BAB1855A400194969C4 /* Build configuration list for PBXNativeTarget "DKDropDownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82D52EF5CE66A7FD5EC38F3F56A84DCA /* Debug */,
+				A16F33032BE7D4E1F198635E317CFDBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48F3111CB697A2FA7D4792E7690688B /* Build configuration list for PBXNativeTarget "Pods-DKDropDownMenu_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89A50884EA4715E0E1050C873B8316B /* Debug */,
+				8473236481D673C4C8CCF76ECFDBD616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
