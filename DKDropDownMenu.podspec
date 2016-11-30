@@ -23,11 +23,11 @@ If your boss wants you to add a drop down menu to your iOS app and you are tired
     More configuration options are added in future. Hopefully. For now you can use shadowView property of DKDropDownViewController to configure shadow's layer if you don't like the default one or subclass DKDropDownViewController to provide your own cell's configurations by overriding UITableViewDataSource protocol methods in case of emergency.
     DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/DKDropDownMenu'
+  s.homepage         = 'https://github.com/Dmitriy837/DKDropDownMenu'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Dmytro Kovryhin' => 'agnostic.88@yandex.ua' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/DKDropDownMenu.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Dmitriy837/DKDropDownMenu.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -37,7 +37,7 @@ If your boss wants you to add a drop down menu to your iOS app and you are tired
   # s.resource_bundles = {
   #   'DKDropDownMenu' => ['DKDropDownMenu/Assets/*.png']
   # }
-  s.resources = ['Pod/Assets/*.{png,storyboard,lproj}']
+  s.resources = ['DKDropDownMenu/Assets/*.{png,storyboard,lproj}']
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
